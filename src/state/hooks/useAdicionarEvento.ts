@@ -1,11 +1,11 @@
 import { useSetRecoilState } from "recoil"
 import { IEvento } from "../../interfaces/IEvento"
 import { obterId } from "../../util"
-import { listaDeEventoState } from "../atom"
+import { listaDeEventosState } from "../atom"
 
 const useAdicionarEvento = () => {
 
-    const setListaDeEventos = useSetRecoilState<IEvento[]>(listaDeEventoState)
+    const setListaDeEventos = useSetRecoilState<IEvento[]>(listaDeEventosState)
 
     return (evento: IEvento) => {
         const hoje = new Date()
