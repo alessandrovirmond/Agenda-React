@@ -13,7 +13,7 @@ interface IKalendEvento {
   summary: string
   color: string
 }
-   
+
 const Calendario: React.FC = () => {
 
   const eventosKalend = new Map<string, IKalendEvento[]>();

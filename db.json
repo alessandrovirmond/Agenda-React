@@ -1,5 +1,26 @@
 {
     "eventos": [
-        
+      {
+        "descricao": "Estudar Python",
+        "inicio": "2025-05-10T09:00",
+        "fim": "2025-05-10T13:00",
+        "completo": false,
+        "id": 1642342747
+      },
+      {
+        "descricao": "Estudar Flutter",
+        "inicio": "2025-05-09T09:00",
+        "fim": "2025-05-09T13:00",
+        "completo": false,
+        "id": 1642342748
+      },
+      {
+        "descricao": "Estudar React",
+        "inicio": "2025-05-08T09:00",
+        "fim": "2025-05-08T13:00",
+        "completo": false,
+        "id": 1642342749
+      }
     ]
-}
+  }
+  
